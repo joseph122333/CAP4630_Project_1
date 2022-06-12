@@ -1,0 +1,70 @@
+(intro to ai) C:\Users\jtlbo\Desktop\intro_to_ai>python 
+tic-tac-toe.py
+
+. . .
+. . .
+. . .
+
+Player 1 what do you play ? 1
+
+Move #1: player 1 plays 1 :
+
+O . .
+. . .
+. . .
+
+Move #2: player 2 plays 2 :
+
+O X .
+. . .
+. . .
+
+Player 1 what do you play ? 2
+
+Player 1 what do you play ? 3
+
+Move #3: player 1 plays 3 :
+
+O X O
+. . .
+. . .
+
+Move #4: player 2 plays 4 :
+
+O X O
+X . .
+. . .
+
+Player 1 what do you play ? 4
+
+Player 1 what do you play ? 5
+
+Move #5: player 1 plays 5 :
+
+O X O
+X O .
+. . .
+
+Move #6: player 2 plays 6 :
+
+O X O
+X O X
+. . .
+
+Player 1 what do you play ? 6
+
+Player 1 what do you play ? 6
+
+Player 1 what do you play ? 7
+
+Move #7: player 1 plays 7 :
+
+O X O
+X O X
+O . .
+
+Move #8: player 2 plays 8 :
+
+O X O
+X O X
+O X .

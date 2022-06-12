@@ -1,0 +1,474 @@
+(intro to ai) C:\Users\jtlbo\Desktop\intro_to_ai>python 
+connect4.py
+
+0 1 2 3 4 5 6
+-------------
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . . . .
+
+Move #1: player 1 plays 0 :
+
+0 1 2 3 4 5 6
+-------------
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . . . .
+O . . . . . .
+
+Move #2: player 2 plays 0 :
+
+0 1 2 3 4 5 6
+-------------
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . . . .
+X . . . . . .
+O . . . . . .
+
+Move #3: player 1 plays 0 :
+
+0 1 2 3 4 5 6
+-------------
+. . . . . . .
+. . . . . . .
+. . . . . . .
+O . . . . . .
+X . . . . . .
+O . . . . . .
+
+Move #4: player 2 plays 0 :
+
+0 1 2 3 4 5 6
+-------------
+. . . . . . .
+. . . . . . .
+X . . . . . .
+O . . . . . .
+X . . . . . .
+O . . . . . .
+
+Move #5: player 1 plays 0 :
+
+0 1 2 3 4 5 6
+-------------
+. . . . . . .
+O . . . . . .
+X . . . . . .
+O . . . . . .
+X . . . . . .
+O . . . . . .
+
+Move #6: player 2 plays 0 :
+
+0 1 2 3 4 5 6
+-------------
+X . . . . . .
+O . . . . . .
+X . . . . . .
+O . . . . . .
+X . . . . . .
+O . . . . . .
+
+Move #7: player 1 plays 1 :
+
+0 1 2 3 4 5 6
+-------------
+X . . . . . .
+O . . . . . .
+X . . . . . .
+O . . . . . .
+X . . . . . .
+O O . . . . .
+
+Move #8: player 2 plays 1 :
+
+0 1 2 3 4 5 6
+-------------
+X . . . . . .
+O . . . . . .
+X . . . . . .
+O . . . . . .
+X X . . . . .
+O O . . . . .
+
+Move #9: player 1 plays 1 :
+
+0 1 2 3 4 5 6
+-------------
+X . . . . . .
+O . . . . . .
+X . . . . . .
+O O . . . . .
+X X . . . . .
+O O . . . . .
+
+Move #10: player 2 plays 1 :
+
+0 1 2 3 4 5 6
+-------------
+X . . . . . .
+O . . . . . .
+X X . . . . .
+O O . . . . .
+X X . . . . .
+O O . . . . .
+
+Move #11: player 1 plays 1 :
+
+0 1 2 3 4 5 6
+-------------
+X . . . . . .
+O O . . . . .
+X X . . . . .
+O O . . . . .
+X X . . . . .
+O O . . . . .
+
+Move #12: player 2 plays 1 :
+
+0 1 2 3 4 5 6
+-------------
+X X . . . . .
+O O . . . . .
+X X . . . . .
+O O . . . . .
+X X . . . . .
+O O . . . . .
+
+Move #13: player 1 plays 2 :
+
+0 1 2 3 4 5 6
+-------------
+X X . . . . .
+O O . . . . .
+X X . . . . .
+O O . . . . .
+X X . . . . .
+O O O . . . .
+
+Move #14: player 2 plays 2 :
+
+0 1 2 3 4 5 6
+-------------
+X X . . . . .
+O O . . . . .
+X X . . . . .
+O O . . . . .
+X X X . . . .
+O O O . . . .
+
+Move #15: player 1 plays 2 :
+
+0 1 2 3 4 5 6
+-------------
+X X . . . . .
+O O . . . . .
+X X . . . . .
+O O O . . . .
+X X X . . . .
+O O O . . . .
+
+Move #16: player 2 plays 2 :
+
+0 1 2 3 4 5 6
+-------------
+X X . . . . .
+O O . . . . .
+X X X . . . .
+O O O . . . .
+X X X . . . .
+O O O . . . .
+
+Move #17: player 1 plays 2 :
+
+0 1 2 3 4 5 6
+-------------
+X X . . . . .
+O O O . . . .
+X X X . . . .
+O O O . . . .
+X X X . . . .
+O O O . . . .
+
+Move #18: player 2 plays 2 :
+
+0 1 2 3 4 5 6
+-------------
+X X X . . . .
+O O O . . . .
+X X X . . . .
+O O O . . . .
+X X X . . . .
+O O O . . . .
+
+Move #19: player 1 plays 4 :
+
+0 1 2 3 4 5 6
+-------------
+X X X . . . .
+O O O . . . .
+X X X . . . .
+O O O . . . .
+X X X . . . .
+O O O . O . .
+
+Move #20: player 2 plays 3 :
+
+0 1 2 3 4 5 6
+-------------
+X X X . . . .
+O O O . . . .
+X X X . . . .
+O O O . . . .
+X X X . . . .
+O O O X O . .
+
+Move #21: player 1 plays 3 :
+
+0 1 2 3 4 5 6
+-------------
+X X X . . . .
+O O O . . . .
+X X X . . . .
+O O O . . . .
+X X X O . . .
+O O O X O . .
+
+Move #22: player 2 plays 3 :
+
+0 1 2 3 4 5 6
+-------------
+X X X . . . .
+O O O . . . .
+X X X . . . .
+O O O X . . .
+X X X O . . .
+O O O X O . .
+
+Move #23: player 1 plays 3 :
+
+0 1 2 3 4 5 6
+-------------
+X X X . . . .
+O O O . . . .
+X X X O . . .
+O O O X . . .
+X X X O . . .
+O O O X O . .
+
+Move #24: player 2 plays 3 :
+
+0 1 2 3 4 5 6
+-------------
+X X X . . . .
+O O O X . . .
+X X X O . . .
+O O O X . . .
+X X X O . . .
+O O O X O . .
+
+Move #25: player 1 plays 3 :
+
+0 1 2 3 4 5 6
+-------------
+X X X O . . .
+O O O X . . .
+X X X O . . .
+O O O X . . .
+X X X O . . .
+O O O X O . .
+
+Move #26: player 2 plays 4 :
+
+0 1 2 3 4 5 6
+-------------
+X X X O . . .
+O O O X . . .
+X X X O . . .
+O O O X . . .
+X X X O X . .
+O O O X O . .
+
+Move #27: player 1 plays 4 :
+
+0 1 2 3 4 5 6
+-------------
+X X X O . . .
+O O O X . . .
+X X X O . . .
+O O O X O . .
+X X X O X . .
+O O O X O . .
+
+Move #28: player 2 plays 4 :
+
+0 1 2 3 4 5 6
+-------------
+X X X O . . .
+O O O X . . .
+X X X O X . .
+O O O X O . .
+X X X O X . .
+O O O X O . .
+
+Move #29: player 1 plays 4 :
+
+0 1 2 3 4 5 6
+-------------
+X X X O . . .
+O O O X O . .
+X X X O X . .
+O O O X O . .
+X X X O X . .
+O O O X O . .
+
+Move #30: player 2 plays 4 :
+
+0 1 2 3 4 5 6
+-------------
+X X X O X . .
+O O O X O . .
+X X X O X . .
+O O O X O . .
+X X X O X . .
+O O O X O . .
+
+Move #31: player 1 plays 5 :
+
+0 1 2 3 4 5 6
+-------------
+X X X O X . .
+O O O X O . .
+X X X O X . .
+O O O X O . .
+X X X O X . .
+O O O X O O .
+
+Move #32: player 2 plays 5 :
+
+0 1 2 3 4 5 6
+-------------
+X X X O X . .
+O O O X O . .
+X X X O X . .
+O O O X O . .
+X X X O X X .
+O O O X O O .
+
+Move #33: player 1 plays 5 :
+
+0 1 2 3 4 5 6
+-------------
+X X X O X . .
+O O O X O . .
+X X X O X . .
+O O O X O O .
+X X X O X X .
+O O O X O O .
+
+Move #34: player 2 plays 5 :
+
+0 1 2 3 4 5 6
+-------------
+X X X O X . .
+O O O X O . .
+X X X O X X .
+O O O X O O .
+X X X O X X .
+O O O X O O .
+
+Move #35: player 1 plays 5 :
+
+0 1 2 3 4 5 6
+-------------
+X X X O X . .
+O O O X O O .
+X X X O X X .
+O O O X O O .
+X X X O X X .
+O O O X O O .
+
+Move #36: player 2 plays 5 :
+
+0 1 2 3 4 5 6
+-------------
+X X X O X X .
+O O O X O O .
+X X X O X X .
+O O O X O O .
+X X X O X X .
+O O O X O O .
+
+Move #37: player 1 plays 6 :
+
+0 1 2 3 4 5 6
+-------------
+X X X O X X .
+O O O X O O .
+X X X O X X .
+O O O X O O .
+X X X O X X .
+O O O X O O O
+
+Move #38: player 2 plays 6 :
+
+0 1 2 3 4 5 6
+-------------
+X X X O X X .
+O O O X O O .
+X X X O X X .
+O O O X O O .
+X X X O X X X
+O O O X O O O
+
+Move #39: player 1 plays 6 :
+
+0 1 2 3 4 5 6
+-------------
+X X X O X X .
+O O O X O O .
+X X X O X X .
+O O O X O O O
+X X X O X X X
+O O O X O O O
+
+Move #40: player 2 plays 6 :
+
+0 1 2 3 4 5 6
+-------------
+X X X O X X .
+O O O X O O .
+X X X O X X X
+O O O X O O O
+X X X O X X X
+O O O X O O O
+
+Move #41: player 1 plays 6 :
+
+0 1 2 3 4 5 6
+-------------
+X X X O X X .
+O O O X O O O
+X X X O X X X
+O O O X O O O
+X X X O X X X
+O O O X O O O
+
+Move #42: player 2 plays 6 :
+
+0 1 2 3 4 5 6
+-------------
+X X X O X X X
+O O O X O O O
+X X X O X X X
+O O O X O O O
+X X X O X X X
+O O O X O O O
+Looks like we have a draw.
